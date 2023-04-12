@@ -75,20 +75,14 @@ h1 {
         <p>9. What will you do to keep communication going with a girl?</p>
 		<input type="radio" name="q9" value="3">A. Talk about friends and family <br>
 		<input type="radio" name="q9" value="3">B. Send her memes<br>
-		<input type="radio" name="q9" value="1">C. Ask friends and chatgpt or googlefor tips <br>
+		<input type="radio" name="q9" value="1">C. Ask friends and chatgpt or google for tips <br>
         <input type="radio" name="q9" value="2">D. Try to find common interest<br>
 
-        <p>10. What will you do to keep communication going with a girl?</p>
-		<input type="radio" name="q10" value="3">A. I'll ask her playlist <br>
-		<input type="radio" name="q10" value="3">B. Send her memes<br>
-		<input type="radio" name="q10" value="1">C. Ask friends and chatgpt or google for tips <br>
-        <input type="radio" name="q10" value="2">D. Try to find common interest<br>
-
-        <p>11. How much confident do you feel while talking with a girl on a scale 0 to 3</p>
-        <input type="radio" name="q11" value="0">A. Zero <br>
-        <input type="radio" name="q11" value="1">B. One <br>
-        <input type="radio" name="q11" value="2">C. Two <br>
-        <input type="radio" name="q11" value="3">D. Three <br>
+        <p>10. How much confident do you feel while talking with a girl on a scale 0 to 3</p>
+        <input type="radio" name="q10" value="0">A. Zero <br>
+        <input type="radio" name="q10" value="1">B. One <br>
+        <input type="radio" name="q10" value="2">C. Two <br>
+        <input type="radio" name="q10" value="3">D. Three <br>
         
         
 
@@ -116,10 +110,9 @@ h1 {
 			var q8Score = parseInt(document.querySelector('input[name="q8"]:checked').value);
 			var q9Score = parseInt(document.querySelector('input[name="q9"]:checked').value);
             var q10Score = parseInt(document.querySelector('input[name="q10"]:checked').value);
-            var q11Score = parseInt(document.querySelector('input[name="q11"]:checked').value);
-		
+        
 			//Total Score
-			var totalScore = q1Score + q2Score + q3Score + q4Score + q5Score + q6Score + q7Score + q8Score + q9Score + q10Score + q11Score;
+			var totalScore = q1Score + q2Score + q3Score + q4Score + q5Score + q6Score + q7Score + q8Score + q9Score + q10Score;
 
 			//Rizz Grade based on scores;
 			var grade;
